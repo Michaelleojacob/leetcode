@@ -21,3 +21,13 @@ twoSum([2, 7, 11, 15], 9);
 // console.log(hashmap);
 
 // console.log(hashmap[7] !== undefined);
+
+// const hashmap = new Map();
+// for (let i = 0; i < nums.length; i++) {
+//   const difference = target - nums[i];
+//   if (hashmap[difference] !== undefined) {
+//     return [hashmap[difference], i];
+//   } else {
+//     hashmap[nums[i]] = i;
+//   }
+// }
