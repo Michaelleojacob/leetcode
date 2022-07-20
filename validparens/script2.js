@@ -52,8 +52,8 @@
  */
 var isValid = function (s) {
   const stack = [];
-  //* compare closing with opening
-  // !not open with closing
+  //* compare closing with opening ) : (
+  // !not open with closing ( : )
   const hashmap = {
     ')': '(',
     ']': '[',
