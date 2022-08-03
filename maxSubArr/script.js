@@ -33,3 +33,15 @@ const maxSubArr = (nums) => {
     curr = Math.max(curr, 0);
   }
 };
+
+const maxSubArray3 = (nums) => {
+  let max = nums[0];
+  let curr = Math.max(max, 0);
+  for (let i = 1; i < nums.length; i++) {
+    let n = nums[i];
+    curr += n;
+    max = Math.max(curr, max);
+    curr = Math.max(curr, 0);
+  }
+  return max;
+};
